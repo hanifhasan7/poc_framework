@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = 'poc_framework'
- s.version = '1.0.0'
+ s.version = '1.0.2'
  s.summary = 'A brief description of YourFramework.'
  s.description = 'A more detailed description of YourFramework.'
  s.license = { :type => 'MIT', :file => 'LICENSE' }
