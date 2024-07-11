@@ -12,6 +12,7 @@
 		CE5184652C3E2F4400C03A6D /* poc_frameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5184642C3E2F4400C03A6D /* poc_frameworkTests.swift */; };
 		CE5184662C3E2F4400C03A6D /* poc_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5184582C3E2F4400C03A6D /* poc_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE5184702C3E309000C03A6D /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51846F2C3E309000C03A6D /* MyClass.swift */; };
+		CE5184742C3F711400C03A6D /* poc_framework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CE5184732C3F711400C03A6D /* poc_framework.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,8 @@
 		CE51845F2C3E2F4400C03A6D /* poc_frameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poc_frameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5184642C3E2F4400C03A6D /* poc_frameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_frameworkTests.swift; sourceTree = "<group>"; };
 		CE51846F2C3E309000C03A6D /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		CE5184722C3F70C400C03A6D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CE5184732C3F711400C03A6D /* poc_framework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poc_framework.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 		CE51844B2C3E2F4400C03A6D = {
 			isa = PBXGroup;
 			children = (
+				CE5184712C3F709800C03A6D /* podspec metadata */,
 				CE5184572C3E2F4400C03A6D /* poc_framework */,
 				CE5184632C3E2F4400C03A6D /* poc_frameworkTests */,
 				CE5184562C3E2F4400C03A6D /* Products */,
@@ -86,6 +90,15 @@
 				CE5184642C3E2F4400C03A6D /* poc_frameworkTests.swift */,
 			);
 			path = poc_frameworkTests;
+			sourceTree = "<group>";
+		};
+		CE5184712C3F709800C03A6D /* podspec metadata */ = {
+			isa = PBXGroup;
+			children = (
+				CE5184722C3F70C400C03A6D /* LICENSE */,
+				CE5184732C3F711400C03A6D /* poc_framework.podspec */,
+			);
+			name = "podspec metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5184742C3F711400C03A6D /* poc_framework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
